@@ -7,6 +7,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         // use type DecimalFormat to round calculations to the hundredths place
         DecimalFormat format = new DecimalFormat("#.##");
+        format.setMinimumFractionDigits(2);
 
         // prompts user to enter the initial bill amount and stores that amount as a double
         System.out.print("Please enter the total bill amount: ");
